@@ -7,18 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41017A6227D97F5A0020BD4A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 41017A6127D97F5A0020BD4A /* FirebaseAnalytics */; };
+		41017A6427D97F5A0020BD4A /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 41017A6327D97F5A0020BD4A /* FirebaseAnalyticsSwift-Beta */; };
+		41017A6627D9803E0020BD4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41017A6527D9803E0020BD4A /* GoogleService-Info.plist */; };
+		41017A6727D9803E0020BD4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41017A6527D9803E0020BD4A /* GoogleService-Info.plist */; };
+		41017A7327D988740020BD4A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 41017A7227D988740020BD4A /* FirebaseCrashlytics */; };
+		41017A7927D989060020BD4A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 41017A7827D989060020BD4A /* FirebaseMessaging */; };
+		41017A7B27D991110020BD4A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 41017A7A27D991110020BD4A /* FirebaseMessaging */; };
 		419ECFB627D033F700FF878F /* ContadorPasosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFB527D033F700FF878F /* ContadorPasosApp.swift */; };
 		419ECFB827D033F700FF878F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFB727D033F700FF878F /* ContentView.swift */; };
 		419ECFBA27D033F900FF878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419ECFB927D033F900FF878F /* Assets.xcassets */; };
 		419ECFBD27D033F900FF878F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419ECFBC27D033F900FF878F /* Preview Assets.xcassets */; };
+		419ECFC627D0341F00FF878F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ECFC527D0341F00FF878F /* HealthKit.framework */; };
+		419ECFCF27D82F6B00FF878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419ECFCE27D82F6B00FF878F /* Assets.xcassets */; };
+		419ECFD527D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 419ECFD427D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		419ECFDA27D82F6B00FF878F /* ContadorPasosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFD927D82F6B00FF878F /* ContadorPasosApp.swift */; };
+		419ECFDC27D82F6B00FF878F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFDB27D82F6B00FF878F /* ContentView.swift */; };
+		419ECFDE27D82F6B00FF878F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFDD27D82F6B00FF878F /* NotificationController.swift */; };
+		419ECFE027D82F6B00FF878F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFDF27D82F6B00FF878F /* NotificationView.swift */; };
+		419ECFE227D82F6B00FF878F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419ECFE127D82F6B00FF878F /* ComplicationController.swift */; };
+		419ECFE427D82F6C00FF878F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419ECFE327D82F6C00FF878F /* Assets.xcassets */; };
+		419ECFE727D82F6C00FF878F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419ECFE627D82F6C00FF878F /* Preview Assets.xcassets */; };
+		419ECFEC27D82F6C00FF878F /* ContadorPasosWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 419ECFCC27D82F6900FF878F /* ContadorPasosWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		419ECFF727D8327B00FF878F /* PasosModule in Frameworks */ = {isa = PBXBuildFile; productRef = 419ECFF627D8327B00FF878F /* PasosModule */; };
+		419ECFF927D8333700FF878F /* PasosModule in Frameworks */ = {isa = PBXBuildFile; productRef = 419ECFF827D8333700FF878F /* PasosModule */; };
+		419ECFFC27D8334200FF878F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419ECFFB27D8334200FF878F /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		419ECFD627D82F6B00FF878F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419ECFAA27D033F700FF878F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419ECFD327D82F6B00FF878F;
+			remoteInfo = "ContadorPasosWatch WatchKit Extension";
+		};
+		419ECFEA27D82F6C00FF878F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419ECFAA27D033F700FF878F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419ECFCB27D82F6900FF878F;
+			remoteInfo = ContadorPasosWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		419ECFF027D82F6C00FF878F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				419ECFD527D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419ECFF427D82F6C00FF878F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				419ECFEC27D82F6C00FF878F /* ContadorPasosWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		41017A6527D9803E0020BD4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		419ECFB227D033F700FF878F /* ContadorPasos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContadorPasos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419ECFB527D033F700FF878F /* ContadorPasosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPasosApp.swift; sourceTree = "<group>"; };
 		419ECFB727D033F700FF878F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		419ECFB927D033F900FF878F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419ECFBC27D033F900FF878F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		419ECFC327D0341E00FF878F /* ContadorPasos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContadorPasos.entitlements; sourceTree = "<group>"; };
+		419ECFC527D0341F00FF878F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		419ECFC927D82C4600FF878F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		419ECFCC27D82F6900FF878F /* ContadorPasosWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContadorPasosWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419ECFCE27D82F6B00FF878F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419ECFD427D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ContadorPasosWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419ECFD927D82F6B00FF878F /* ContadorPasosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorPasosApp.swift; sourceTree = "<group>"; };
+		419ECFDB27D82F6B00FF878F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		419ECFDD27D82F6B00FF878F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		419ECFDF27D82F6B00FF878F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		419ECFE127D82F6B00FF878F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		419ECFE327D82F6C00FF878F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419ECFE627D82F6C00FF878F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		419ECFE827D82F6C00FF878F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419ECFE927D82F6C00FF878F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		419ECFF527D8316A00FF878F /* PasosModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PasosModule; path = ../PasosModule; sourceTree = "<group>"; };
+		419ECFFA27D8334200FF878F /* ContadorPasosWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ContadorPasosWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		419ECFFB27D8334200FF878F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.3.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +108,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419ECFC627D0341F00FF878F /* HealthKit.framework in Frameworks */,
+				419ECFF727D8327B00FF878F /* PasosModule in Frameworks */,
+				41017A7B27D991110020BD4A /* FirebaseMessaging in Frameworks */,
+				41017A6427D97F5A0020BD4A /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				41017A6227D97F5A0020BD4A /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419ECFD127D82F6B00FF878F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41017A7927D989060020BD4A /* FirebaseMessaging in Frameworks */,
+				41017A7327D988740020BD4A /* FirebaseCrashlytics in Frameworks */,
+				419ECFF927D8333700FF878F /* PasosModule in Frameworks */,
+				419ECFFC27D8334200FF878F /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +133,12 @@
 		419ECFA927D033F700FF878F = {
 			isa = PBXGroup;
 			children = (
+				419ECFF527D8316A00FF878F /* PasosModule */,
 				419ECFB427D033F700FF878F /* ContadorPasos */,
+				419ECFCD27D82F6900FF878F /* ContadorPasosWatch */,
+				419ECFD827D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension */,
 				419ECFB327D033F700FF878F /* Products */,
+				419ECFC427D0341F00FF878F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				419ECFB227D033F700FF878F /* ContadorPasos.app */,
+				419ECFCC27D82F6900FF878F /* ContadorPasosWatch.app */,
+				419ECFD427D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +155,9 @@
 		419ECFB427D033F700FF878F /* ContadorPasos */ = {
 			isa = PBXGroup;
 			children = (
+				419ECFC927D82C4600FF878F /* Info.plist */,
+				419ECFC327D0341E00FF878F /* ContadorPasos.entitlements */,
+				41017A6527D9803E0020BD4A /* GoogleService-Info.plist */,
 				419ECFB527D033F700FF878F /* ContadorPasosApp.swift */,
 				419ECFB727D033F700FF878F /* ContentView.swift */,
 				419ECFB927D033F900FF878F /* Assets.xcassets */,
@@ -67,6 +174,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		419ECFC427D0341F00FF878F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				419ECFFB27D8334200FF878F /* HealthKit.framework */,
+				419ECFC527D0341F00FF878F /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		419ECFCD27D82F6900FF878F /* ContadorPasosWatch */ = {
+			isa = PBXGroup;
+			children = (
+				419ECFCE27D82F6B00FF878F /* Assets.xcassets */,
+			);
+			path = ContadorPasosWatch;
+			sourceTree = "<group>";
+		};
+		419ECFD827D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				419ECFFA27D8334200FF878F /* ContadorPasosWatch WatchKit Extension.entitlements */,
+				419ECFD927D82F6B00FF878F /* ContadorPasosApp.swift */,
+				419ECFDB27D82F6B00FF878F /* ContentView.swift */,
+				419ECFDD27D82F6B00FF878F /* NotificationController.swift */,
+				419ECFDF27D82F6B00FF878F /* NotificationView.swift */,
+				419ECFE127D82F6B00FF878F /* ComplicationController.swift */,
+				419ECFE327D82F6C00FF878F /* Assets.xcassets */,
+				419ECFE827D82F6C00FF878F /* Info.plist */,
+				419ECFE927D82F6C00FF878F /* PushNotificationPayload.apns */,
+				419ECFE527D82F6C00FF878F /* Preview Content */,
+			);
+			path = "ContadorPasosWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		419ECFE527D82F6C00FF878F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				419ECFE627D82F6C00FF878F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +226,62 @@
 				419ECFAE27D033F700FF878F /* Sources */,
 				419ECFAF27D033F700FF878F /* Frameworks */,
 				419ECFB027D033F700FF878F /* Resources */,
+				419ECFF427D82F6C00FF878F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419ECFEB27D82F6C00FF878F /* PBXTargetDependency */,
+			);
+			name = ContadorPasos;
+			packageProductDependencies = (
+				419ECFF627D8327B00FF878F /* PasosModule */,
+				41017A6127D97F5A0020BD4A /* FirebaseAnalytics */,
+				41017A6327D97F5A0020BD4A /* FirebaseAnalyticsSwift-Beta */,
+				41017A7A27D991110020BD4A /* FirebaseMessaging */,
+			);
+			productName = ContadorPasos;
+			productReference = 419ECFB227D033F700FF878F /* ContadorPasos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419ECFCB27D82F6900FF878F /* ContadorPasosWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419ECFF127D82F6C00FF878F /* Build configuration list for PBXNativeTarget "ContadorPasosWatch" */;
+			buildPhases = (
+				419ECFCA27D82F6900FF878F /* Resources */,
+				419ECFF027D82F6C00FF878F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419ECFD727D82F6B00FF878F /* PBXTargetDependency */,
+			);
+			name = ContadorPasosWatch;
+			productName = ContadorPasosWatch;
+			productReference = 419ECFCC27D82F6900FF878F /* ContadorPasosWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		419ECFD327D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419ECFED27D82F6C00FF878F /* Build configuration list for PBXNativeTarget "ContadorPasosWatch WatchKit Extension" */;
+			buildPhases = (
+				419ECFD027D82F6B00FF878F /* Sources */,
+				419ECFD127D82F6B00FF878F /* Frameworks */,
+				419ECFD227D82F6B00FF878F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ContadorPasos;
-			productName = ContadorPasos;
-			productReference = 419ECFB227D033F700FF878F /* ContadorPasos.app */;
-			productType = "com.apple.product-type.application";
+			name = "ContadorPasosWatch WatchKit Extension";
+			packageProductDependencies = (
+				419ECFF827D8333700FF878F /* PasosModule */,
+				41017A7227D988740020BD4A /* FirebaseCrashlytics */,
+				41017A7827D989060020BD4A /* FirebaseMessaging */,
+			);
+			productName = "ContadorPasosWatch WatchKit Extension";
+			productReference = 419ECFD427D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +296,12 @@
 					419ECFB127D033F700FF878F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+					419ECFCB27D82F6900FF878F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					419ECFD327D82F6B00FF878F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 419ECFAD27D033F700FF878F /* Build configuration list for PBXProject "ContadorPasos" */;
@@ -111,11 +313,16 @@
 				Base,
 			);
 			mainGroup = 419ECFA927D033F700FF878F;
+			packageReferences = (
+				41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 419ECFB327D033F700FF878F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				419ECFB127D033F700FF878F /* ContadorPasos */,
+				419ECFCB27D82F6900FF878F /* ContadorPasosWatch */,
+				419ECFD327D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +334,25 @@
 			files = (
 				419ECFBD27D033F900FF878F /* Preview Assets.xcassets in Resources */,
 				419ECFBA27D033F900FF878F /* Assets.xcassets in Resources */,
+				41017A6627D9803E0020BD4A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419ECFCA27D82F6900FF878F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419ECFCF27D82F6B00FF878F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419ECFD227D82F6B00FF878F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419ECFE727D82F6C00FF878F /* Preview Assets.xcassets in Resources */,
+				419ECFE427D82F6C00FF878F /* Assets.xcassets in Resources */,
+				41017A6727D9803E0020BD4A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +368,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		419ECFD027D82F6B00FF878F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419ECFDE27D82F6B00FF878F /* NotificationController.swift in Sources */,
+				419ECFDC27D82F6B00FF878F /* ContentView.swift in Sources */,
+				419ECFE227D82F6B00FF878F /* ComplicationController.swift in Sources */,
+				419ECFDA27D82F6B00FF878F /* ContadorPasosApp.swift in Sources */,
+				419ECFE027D82F6B00FF878F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419ECFD727D82F6B00FF878F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419ECFD327D82F6B00FF878F /* ContadorPasosWatch WatchKit Extension */;
+			targetProxy = 419ECFD627D82F6B00FF878F /* PBXContainerItemProxy */;
+		};
+		419ECFEB27D82F6C00FF878F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419ECFCB27D82F6900FF878F /* ContadorPasosWatch */;
+			targetProxy = 419ECFEA27D82F6C00FF878F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		419ECFBE27D033F900FF878F /* Debug */ = {
@@ -266,12 +517,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContadorPasos/ContadorPasos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ContadorPasos/Preview Content\"";
 				DEVELOPMENT_TEAM = X755UPQX22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContadorPasos/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Hola queremos acceder a contar pasos";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Compartir sus pasos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,12 +550,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ContadorPasos/ContadorPasos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ContadorPasos/Preview Content\"";
 				DEVELOPMENT_TEAM = X755UPQX22;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContadorPasos/Info.plist;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Hola queremos acceder a contar pasos";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Compartir sus pasos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +575,126 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		419ECFEE27D82F6C00FF878F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "ContadorPasosWatch WatchKit Extension/ContadorPasosWatch WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContadorPasosWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = X755UPQX22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ContadorPasosWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ContadorPasosWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ContadorPasosWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Compartir tus pasos";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Compartir tus pasos";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brainchrisdvlper.ContadorPasos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		419ECFEF27D82F6C00FF878F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "ContadorPasosWatch WatchKit Extension/ContadorPasosWatch WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContadorPasosWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = X755UPQX22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ContadorPasosWatch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ContadorPasosWatch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ContadorPasosWatch_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Compartir tus pasos";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Compartir tus pasos";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brainchrisdvlper.ContadorPasos.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		419ECFF227D82F6C00FF878F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X755UPQX22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ContadorPasosWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = ContadorPasosWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = brainchrisdvlper.ContadorPasos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brainchrisdvlper.ContadorPasos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		419ECFF327D82F6C00FF878F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X755UPQX22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ContadorPasosWatch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = ContadorPasosWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = brainchrisdvlper.ContadorPasos;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brainchrisdvlper.ContadorPasos.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
 			};
 			name = Release;
 		};
@@ -340,7 +719,72 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		419ECFED27D82F6C00FF878F /* Build configuration list for PBXNativeTarget "ContadorPasosWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419ECFEE27D82F6C00FF878F /* Debug */,
+				419ECFEF27D82F6C00FF878F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419ECFF127D82F6C00FF878F /* Build configuration list for PBXNativeTarget "ContadorPasosWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419ECFF227D82F6C00FF878F /* Debug */,
+				419ECFF327D82F6C00FF878F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41017A6127D97F5A0020BD4A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		41017A6327D97F5A0020BD4A /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		41017A7227D988740020BD4A /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		41017A7827D989060020BD4A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		41017A7A27D991110020BD4A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41017A6027D97F5A0020BD4A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		419ECFF627D8327B00FF878F /* PasosModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PasosModule;
+		};
+		419ECFF827D8333700FF878F /* PasosModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PasosModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 419ECFAA27D033F700FF878F /* Project object */;
 }

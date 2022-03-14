@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  ContadorPasos
+//  ContadorPasosWatch WatchKit Extension
 //
-//  Created by Carlos Sanchez on 02-03-22.
+//  Created by Carlos Sanchez on 08-03-22.
 //
 
 import SwiftUI
@@ -33,6 +33,7 @@ struct ContentView: View {
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
